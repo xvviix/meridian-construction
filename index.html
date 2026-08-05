@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERIDIAN — Construction Group</title>
+    <meta name="description" content="Meridian Construction Group — Premium construction & development since 1987. Building tomorrow's landmarks across Europe.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230d0d0d'/><text x='6' y='23' font-family='Arial' font-weight='700' font-size='18' fill='%23c49a6c'>M</text></svg>">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__inner">
+            <div class="preloader__logo">MERIDIAN</div>
+            <div class="preloader__line"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="#" class="nav__logo">
+                <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="28" width="40" height="12" fill="#c49a6c" opacity="0.3"/>
+                    <rect x="0" y="18" width="30" height="8" fill="#c49a6c" opacity="0.5"/>
+                    <rect x="0" y="10" width="20" height="6" fill="#c49a6c" opacity="0.7"/>
+                    <rect x="0" y="4" width="10" height="4" fill="#c49a6c"/>
+                </svg>
+                <span class="nav__logo-text">MERIDIAN</span>
+            </a>
+            <nav class="nav__links" id="navLinks">
+                <a href="#about" class="nav__link" data-hover>About</a>
+                <a href="#services" class="nav__link" data-hover>Services</a>
+                <a href="#projects" class="nav__link" data-hover>Projects</a>
+                <a href="#contact" class="nav__link" data-hover>Contact</a>
+            </nav>
+            <a href="#contact" class="nav__cta" data-hover>
+                <span>Start a Project</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M1 13L13 1M13 1H5M13 1V9" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </a>
+            <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__inner">
+            <nav class="mobile-menu__links">
+                <a href="#about" class="mobile-menu__link">About</a>
+                <a href="#services" class="mobile-menu__link">Services</a>
+                <a href="#projects" class="mobile-menu__link">Projects</a>
+                <a href="#contact" class="mobile-menu__link">Contact</a>
+            </nav>
+            <div class="mobile-menu__footer">
+                <p>info@meridian.build</p>
+                <p>+49 30 2567 8900</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <div class="hero__grid"></div>
+            <div class="hero__grain"></div>
+        </div>
+        <div class="hero__content">
+            <div class="hero__eyebrow reveal">
+                <span class="hero__line-accent"></span>
+                <span>Premium Construction & Development</span>
+            </div>
+            <h1 class="hero__title">
+                <span class="hero__title-line reveal"><span>We Build</span></span>
+                <span class="hero__title-line reveal"><span>What Others</span></span>
+                <span class="hero__title-line hero__title-line--accent reveal"><span>Only Dream Of</span></span>
+            </h1>
+            <p class="hero__subtitle reveal">
+                For over three decades, Meridian has shaped skylines and transformed landscapes across Europe — delivering precision-engineered structures that endure for generations.
+            </p>
+            <div class="hero__actions reveal">
+                <a href="#projects" class="btn btn--primary" data-hover>
+                    <span>View Our Work</span>
+                </a>
+                <a href="#about" class="btn btn--secondary" data-hover>
+                    <span>Our Story</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <div class="hero__scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+        <div class="hero__deco">
+            <span>EST. 1987</span>
+            <span>BERLIN</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about__inner">
+            <div class="about__left">
+                <div class="section-label reveal">
+                    <span class="section-label__num">01</span>
+                    <span class="section-label__line"></span>
+                    <span class="section-label__text">About Us</span>
+                </div>
+                <h2 class="about__title reveal">
+                    Architecture isn't just what we do —<br>
+                    <em>it's who we are.</em>
+                </h2>
+                <div class="about__visual reveal">
+                    <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="about__structure">
+                        <!-- Structural framework diagram -->
+                        <line x1="0" y1="280" x2="400" y2="280" stroke="#c49a6c" stroke-width="1" opacity="0.2"/>
+                        <line x1="0" y1="200" x2="400" y2="200" stroke="#c49a6c" stroke-width="0.5" opacity="0.1"/>
+                        <line x1="0" y1="120" x2="400" y2="120" stroke="#c49a6c" stroke-width="0.5" opacity="0.1"/>
+                        <!-- Building structure -->
+                        <rect x="40" y="120" width="80" height="160" stroke="#c49a6c" stroke-width="1" opacity="0.25"/>
+                        <rect x="50" y="130" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="85" y="130" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="50" y="170" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="85" y="170" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="50" y="210" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="85" y="210" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <!-- Tall tower -->
+                        <rect x="140" y="40" width="60" height="240" stroke="#c49a6c" stroke-width="1" opacity="0.3"/>
+                        <line x1="140" y1="40" x2="170" y2="10" stroke="#c49a6c" stroke-width="1" opacity="0.3"/>
+                        <line x1="200" y1="40" x2="170" y2="10" stroke="#c49a6c" stroke-width="1" opacity="0.3"/>
+                        <rect x="148" y="55" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="174" y="55" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="148" y="87" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="174" y="87" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="148" y="119" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="174" y="119" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="148" y="151" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="174" y="151" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="148" y="183" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <rect x="174" y="183" width="18" height="22" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                        <!-- Wide building -->
+                        <rect x="220" y="160" width="140" height="120" stroke="#c49a6c" stroke-width="1" opacity="0.2"/>
+                        <rect x="230" y="170" width="30" height="20" stroke="#c49a6c" stroke-width="0.5" opacity="0.12"/>
+                        <rect x="270" y="170" width="30" height="20" stroke="#c49a6c" stroke-width="0.5" opacity="0.12"/>
+                        <rect x="310" y="170" width="40" height="20" stroke="#c49a6c" stroke-width="0.5" opacity="0.12"/>
+                        <rect x="230" y="200" width="50" height="20" stroke="#c49a6c" stroke-width="0.5" opacity="0.12"/>
+                        <rect x="290" y="200" width="60" height="20" stroke="#c49a6c" stroke-width="0.5" opacity="0.12"/>
+                        <rect x="230" y="230" width="120" height="40" stroke="#c49a6c" stroke-width="0.5" opacity="0.12"/>
+                        <!-- Foundation lines -->
+                        <line x1="30" y1="285" x2="370" y2="285" stroke="#c49a6c" stroke-width="2" opacity="0.08"/>
+                        <!-- Accent dot -->
+                        <circle cx="170" cy="10" r="3" fill="#c49a6c" opacity="0.4"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="about__right">
+                <p class="about__text reveal">
+                    Founded in Berlin in 1987, Meridian Construction Group began with a singular conviction: that every structure should be a testament to craft, precision, and purpose. What started as a small firm with bold ambitions has grown into one of Europe's most respected construction enterprises.
+                </p>
+                <p class="about__text reveal">
+                    We approach each project as a partnership — listening deeply, engineering rigorously, and delivering relentlessly. Our portfolio spans commercial towers, residential masterpieces, industrial complexes, and heritage restorations, each bearing the unmistakable mark of Meridian quality.
+                </p>
+                <div class="about__values reveal">
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 4L4 18V44H18V28H30V44H44V18L24 4Z" stroke="#c49a6c" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4>Precision</h4>
+                        <p>Every measurement, every material, every moment — engineered to exacting standards.</p>
+                    </div>
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="20" stroke="#c49a6c" stroke-width="2"/>
+                                <path d="M24 12V24L32 28" stroke="#c49a6c" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Endurance</h4>
+                        <p>We build for generations, not quarters. Longevity is our benchmark of success.</p>
+                    </div>
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 40L24 8L44 40H4Z" stroke="#c49a6c" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M24 8V40" stroke="#c49a6c" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4>Integrity</h4>
+                        <p>Transparent processes, honest communication, and accountability at every stage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services__inner">
+            <div class="services__header">
+                <div class="section-label reveal">
+                    <span class="section-label__num">02</span>
+                    <span class="section-label__line"></span>
+                    <span class="section-label__text">Services</span>
+                </div>
+                <h2 class="services__title reveal">
+                    Full-spectrum<br>construction <em>expertise.</em>
+                </h2>
+            </div>
+            <div class="services__grid">
+                <div class="service-card reveal" data-hover>
+                    <div class="service-card__num">01</div>
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8" y="20" width="48" height="40" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M8 20L32 4L56 20" stroke="#c49a6c" stroke-width="2"/>
+                            <rect x="24" y="36" width="16" height="24" stroke="#c49a6c" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Commercial<br>Construction</h3>
+                    <p class="service-card__desc">Office towers, retail complexes, and mixed-use developments engineered for performance and presence.</p>
+                    <div class="service-card__arrow">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 16L16 4M16 4H8M16 4V12" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-hover>
+                    <div class="service-card__num">02</div>
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 56V24L32 8L56 24V56" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M24 56V36H40V56" stroke="#c49a6c" stroke-width="2"/>
+                            <rect x="12" y="28" width="8" height="8" stroke="#c49a6c" stroke-width="1.5"/>
+                            <rect x="44" y="28" width="8" height="8" stroke="#c49a6c" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Residential<br>Development</h3>
+                    <p class="service-card__desc">Luxury residences and contemporary living spaces where comfort meets architectural distinction.</p>
+                    <div class="service-card__arrow">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 16L16 4M16 4H8M16 4V12" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-hover>
+                    <div class="service-card__num">03</div>
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="28" width="56" height="28" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M4 28L32 12L60 28" stroke="#c49a6c" stroke-width="2"/>
+                            <rect x="24" y="40" width="16" height="16" stroke="#c49a6c" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Industrial<br>Facilities</h3>
+                    <p class="service-card__desc">Warehouses, production plants, and logistics hubs designed for operational efficiency at scale.</p>
+                    <div class="service-card__arrow">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 16L16 4M16 4H8M16 4V12" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-hover>
+                    <div class="service-card__num">04</div>
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 56L32 8L56 56" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M18 36H46" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M24 24L32 8L40 24" stroke="#c49a6c" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Heritage<br>Restoration</h3>
+                    <p class="service-card__desc">Meticulous preservation and modernization of historically significant structures across Europe.</p>
+                    <div class="service-card__arrow">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 16L16 4M16 4H8M16 4V12" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-hover>
+                    <div class="service-card__num">05</div>
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="24" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M32 16V32L44 38" stroke="#c49a6c" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="32" cy="32" r="4" fill="#c49a6c" opacity="0.3"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Project<br>Management</h3>
+                    <p class="service-card__desc">End-to-end oversight ensuring timelines, budgets, and quality benchmarks are met without compromise.</p>
+                    <div class="service-card__arrow">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 16L16 4M16 4H8M16 4V12" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-hover>
+                    <div class="service-card__num">06</div>
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 56V20L32 8L48 20V56" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M8 56H56" stroke="#c49a6c" stroke-width="2"/>
+                            <path d="M20 28H44M20 36H44M20 44H36" stroke="#c49a6c" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="48" cy="16" r="8" stroke="#c49a6c" stroke-width="1.5"/>
+                            <path d="M48 12V16L50 18" stroke="#c49a6c" stroke-width="1" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Sustainable<br>Design</h3>
+                    <p class="service-card__desc">LEED-certified green building solutions integrating renewable systems and low-impact materials.</p>
+                    <div class="service-card__arrow">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 16L16 4M16 4H8M16 4V12" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="process__inner">
+            <div class="process__header">
+                <div class="section-label reveal">
+                    <span class="section-label__num">03</span>
+                    <span class="section-label__line"></span>
+                    <span class="section-label__text">Our Process</span>
+                </div>
+                <h2 class="process__title reveal">
+                    From vision to<br>reality — <em>systematically.</em>
+                </h2>
+            </div>
+            <div class="process__steps">
+                <div class="process__step reveal">
+                    <div class="process__step-num">01</div>
+                    <div class="process__step-connector"></div>
+                    <h4 class="process__step-title">Discover</h4>
+                    <p class="process__step-desc">Deep stakeholder interviews, site analysis, feasibility studies, and regulatory review to define the project's full scope and potential.</p>
+                </div>
+                <div class="process__step reveal">
+                    <div class="process__step-num">02</div>
+                    <div class="process__step-connector"></div>
+                    <h4 class="process__step-title">Design</h4>
+                    <p class="process__step-desc">Collaborative architecture and engineering — from schematic concepts through detailed design documents and value engineering.</p>
+                </div>
+                <div class="process__step reveal">
+                    <div class="process__step-num">03</div>
+                    <div class="process__step-connector"></div>
+                    <h4 class="process__step-title">Construct</h4>
+                    <p class="process__step-desc">Precision execution with real-time quality control, schedule tracking, and transparent reporting at every milestone.</p>
+                </div>
+                <div class="process__step reveal">
+                    <div class="process__step-num">04</div>
+                    <div class="process__step-connector"></div>
+                    <h4 class="process__step-title">Deliver</h4>
+                    <p class="process__step-desc">Comprehensive commissioning, documentation, and handover — followed by ongoing support and warranty management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Strip -->
+    <div class="marquee">
+        <div class="marquee__track">
+            <span class="marquee__item">COMMERCIAL</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">RESIDENTIAL</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">INDUSTRIAL</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">HERITAGE</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">SUSTAINABLE</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">PROJECT MANAGEMENT</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">COMMERCIAL</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">RESIDENTIAL</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">INDUSTRIAL</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">HERITAGE</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">SUSTAINABLE</span>
+            <span class="marquee__dot">◆</span>
+            <span class="marquee__item">PROJECT MANAGEMENT</span>
+            <span class="marquee__dot">◆</span>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="stats__inner">
+            <div class="stat reveal">
+                <span class="stat__number" data-count="37">0</span>
+                <span class="stat__suffix">+</span>
+                <span class="stat__label">Years of Excellence</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat__number" data-count="240">0</span>
+                <span class="stat__suffix">+</span>
+                <span class="stat__label">Projects Delivered</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat__number" data-count="1" data-decimal="2">0</span>
+                <span class="stat__suffix">B€+</span>
+                <span class="stat__label">Total Project Value</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat__number" data-count="450">0</span>
+                <span class="stat__suffix">+</span>
+                <span class="stat__label">Team Members</span>
+            </div>
+        </div>
+        <div class="stats__bg-text">MERIDIAN</div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="projects__inner">
+            <div class="projects__header">
+                <div class="section-label reveal">
+                    <span class="section-label__num">04</span>
+                    <span class="section-label__line"></span>
+                    <span class="section-label__text">Selected Work</span>
+                </div>
+                <h2 class="projects__title reveal">
+                    Structures that<br>define <em>skylines.</em>
+                </h2>
+            </div>
+            <div class="projects__grid">
+                <div class="project-card project-card--large reveal" data-hover>
+                    <div class="project-card__visual">
+                        <div class="project-card__pattern project-card__pattern--1"></div>
+                        <div class="project-card__overlay"></div>
+                        <div class="project-card__content">
+                            <span class="project-card__cat">Commercial Tower</span>
+                            <h3 class="project-card__name">Spree<br>Plaza</h3>
+                            <div class="project-card__meta">
+                                <span>Berlin, DE</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-hover>
+                    <div class="project-card__visual">
+                        <div class="project-card__pattern project-card__pattern--2"></div>
+                        <div class="project-card__overlay"></div>
+                        <div class="project-card__content">
+                            <span class="project-card__cat">Residential</span>
+                            <h3 class="project-card__name">Alte<br>Villa</h3>
+                            <div class="project-card__meta">
+                                <span>Munich, DE</span>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-hover>
+                    <div class="project-card__visual">
+                        <div class="project-card__pattern project-card__pattern--3"></div>
+                        <div class="project-card__overlay"></div>
+                        <div class="project-card__content">
+                            <span class="project-card__cat">Heritage</span>
+                            <h3 class="project-card__name">König<br>Halle</h3>
+                            <div class="project-card__meta">
+                                <span>Hamburg, DE</span>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card project-card--large reveal" data-hover>
+                    <div class="project-card__visual">
+                        <div class="project-card__pattern project-card__pattern--4"></div>
+                        <div class="project-card__overlay"></div>
+                        <div class="project-card__content">
+                            <span class="project-card__cat">Industrial</span>
+                            <h3 class="project-card__name">Nord<br>Logistik</h3>
+                            <div class="project-card__meta">
+                                <span>Frankfurt, DE</span>
+                                <span>2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-hover>
+                    <div class="project-card__visual">
+                        <div class="project-card__pattern project-card__pattern--5"></div>
+                        <div class="project-card__overlay"></div>
+                        <div class="project-card__content">
+                            <span class="project-card__cat">Sustainable</span>
+                            <h3 class="project-card__name">Grün<br>Turm</h3>
+                            <div class="project-card__meta">
+                                <span>Vienna, AT</span>
+                                <span>2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-hover>
+                    <div class="project-card__visual">
+                        <div class="project-card__pattern project-card__pattern--6"></div>
+                        <div class="project-card__overlay"></div>
+                        <div class="project-card__content">
+                            <span class="project-card__cat">Mixed-Use</span>
+                            <h3 class="project-card__name">Rhine<br>Complex</h3>
+                            <div class="project-card__meta">
+                                <span>Cologne, DE</span>
+                                <span>2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials__inner">
+            <div class="testimonials__header">
+                <div class="section-label reveal">
+                    <span class="section-label__num">05</span>
+                    <span class="section-label__line"></span>
+                    <span class="section-label__text">Testimonials</span>
+                </div>
+                <h2 class="testimonials__title reveal">
+                    Trusted by<br>industry <em>leaders.</em>
+                </h2>
+            </div>
+            <div class="testimonials__slider" id="testimonialSlider">
+                <div class="testimonial reveal">
+                    <div class="testimonial__quote">
+                        <svg class="testimonial__mark" viewBox="0 0 48 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 40V24C0 10.745 10.745 0 24 0H28V8H24C15.163 8 8 15.163 8 24V40H0ZM28 40V24C28 10.745 38.745 0 52 0H56V8H52C43.163 8 36 15.163 36 24V40H28Z" fill="#c49a6c" opacity="0.15"/>
+                        </svg>
+                        <p>Meridian delivered our headquarters three weeks ahead of schedule and under budget — a feat I've never experienced in thirty years of real estate development. Their precision is unmatched.</p>
+                    </div>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23" stroke="#c49a6c" stroke-width="1.5"/>
+                                <circle cx="24" cy="18" r="7" stroke="#c49a6c" stroke-width="1.5"/>
+                                <path d="M8 42C8 33.163 15.163 26 24 26C32.837 26 40 33.163 40 42" stroke="#c49a6c" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Dr. Heinrich Bauer</strong>
+                            <span>CEO, BauCapital Holdings</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial reveal">
+                    <div class="testimonial__quote">
+                        <svg class="testimonial__mark" viewBox="0 0 48 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 40V24C0 10.745 10.745 0 24 0H28V8H24C15.163 8 8 15.163 8 24V40H0ZM28 40V24C28 10.745 38.745 0 52 0H56V8H52C43.163 8 36 15.163 36 24V40H28Z" fill="#c49a6c" opacity="0.15"/>
+                        </svg>
+                        <p>The restoration of König Halle demanded sensitivity and mastery. Meridian preserved every detail of the original 1897 structure while seamlessly integrating modern systems. Remarkable work.</p>
+                    </div>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23" stroke="#c49a6c" stroke-width="1.5"/>
+                                <circle cx="24" cy="18" r="7" stroke="#c49a6c" stroke-width="1.5"/>
+                                <path d="M8 42C8 33.163 15.163 26 24 26C32.837 26 40 33.163 40 42" stroke="#c49a6c" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Prof. Katrin Möller</strong>
+                            <span>Director, Hamburg Heritage Authority</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial reveal">
+                    <div class="testimonial__quote">
+                        <svg class="testimonial__mark" viewBox="0 0 48 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 40V24C0 10.745 10.745 0 24 0H28V8H24C15.163 8 8 15.163 8 24V40H0ZM28 40V24C28 10.745 38.745 0 52 0H56V8H52C43.163 8 36 15.163 36 24V40H28Z" fill="#c49a6c" opacity="0.15"/>
+                        </svg>
+                        <p>From concept through completion, Meridian operated as a true partner. Their project management team maintained absolute transparency, and the quality of the final build exceeded our most ambitious expectations.</p>
+                    </div>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23" stroke="#c49a6c" stroke-width="1.5"/>
+                                <circle cx="24" cy="18" r="7" stroke="#c49a6c" stroke-width="1.5"/>
+                                <path d="M8 42C8 33.163 15.163 26 24 26C32.837 26 40 33.163 40 42" stroke="#c49a6c" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Markus Stein</strong>
+                            <span>COO, Rheinland Development Group</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact__inner">
+            <div class="contact__left">
+                <div class="section-label reveal">
+                    <span class="section-label__num">06</span>
+                    <span class="section-label__line"></span>
+                    <span class="section-label__text">Get in Touch</span>
+                </div>
+                <h2 class="contact__title reveal">
+                    Let's build<br>something <em>extraordinary.</em>
+                </h2>
+                <p class="contact__subtitle reveal">
+                    Whether you're envisioning a landmark tower or a bespoke residence, every great project begins with a conversation. Reach out — we're ready to listen.
+                </p>
+            </div>
+            <div class="contact__right">
+                <form class="contact__form reveal" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder=" " autocomplete="name">
+                        <span class="form-group__line"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder=" " autocomplete="email">
+                        <span class="form-group__line"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="project">Project Type</label>
+                        <select id="project" name="project" required>
+                            <option value="" disabled selected>Select a category</option>
+                            <option value="commercial">Commercial Construction</option>
+                            <option value="residential">Residential Development</option>
+                            <option value="industrial">Industrial Facility</option>
+                            <option value="heritage">Heritage Restoration</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <span class="form-group__line"></span>
+                    </div>
+                    <div class="form-group form-group--full">
+                        <label for="message">Tell Us About Your Vision</label>
+                        <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                        <span class="form-group__line"></span>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full" data-hover>
+                        <span>Send Inquiry</span>
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path d="M1 13L13 1M13 1H5M13 1V9" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </button>
+                </form>
+                <div class="contact__info reveal">
+                    <div class="contact__info-item">
+                        <span class="contact__info-label">Email</span>
+                        <a href="mailto:info@meridian.build">info@meridian.build</a>
+                    </div>
+                    <div class="contact__info-item">
+                        <span class="contact__info-label">Phone</span>
+                        <a href="tel:+493025678900">+49 30 2567 8900</a>
+                    </div>
+                    <div class="contact__info-item">
+                        <span class="contact__info-label">Office</span>
+                        <span>Friedrichstraße 112<br>10117 Berlin, Germany</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="#" class="nav__logo">
+                        <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0" y="28" width="40" height="12" fill="#c49a6c" opacity="0.3"/>
+                            <rect x="0" y="18" width="30" height="8" fill="#c49a6c" opacity="0.5"/>
+                            <rect x="0" y="10" width="20" height="6" fill="#c49a6c" opacity="0.7"/>
+                            <rect x="0" y="4" width="10" height="4" fill="#c49a6c"/>
+                        </svg>
+                        <span class="nav__logo-text">MERIDIAN</span>
+                    </a>
+                    <p>Building tomorrow's landmarks since 1987. Precision-engineered structures that endure for generations.</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__col">
+                        <h4>Company</h4>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Services</h4>
+                        <a href="#services">Commercial</a>
+                        <a href="#services">Residential</a>
+                        <a href="#services">Industrial</a>
+                        <a href="#services">Heritage</a>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Connect</h4>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Archdaily</a>
+                        <a href="#">Behance</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span>&copy; 2024 Meridian Construction Group. All rights reserved.</span>
+                <div class="footer__bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Imprint</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
