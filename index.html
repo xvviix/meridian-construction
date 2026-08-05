@@ -71,6 +71,7 @@
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="hero__bg">
+            <img src="images/hero-bg.jpg" alt="" class="hero__bg-image" loading="eager" fetchpriority="high">
             <div class="hero__grid"></div>
             <div class="hero__grain"></div>
         </div>
@@ -120,19 +121,9 @@
                     <em>it's who we are.</em>
                 </h2>
                 <div class="about__visual reveal">
-                    <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="about__structure">
-                        <!-- Structural framework diagram -->
-                        <line x1="0" y1="280" x2="400" y2="280" stroke="#c49a6c" stroke-width="1" opacity="0.2"/>
-                        <line x1="0" y1="200" x2="400" y2="200" stroke="#c49a6c" stroke-width="0.5" opacity="0.1"/>
-                        <line x1="0" y1="120" x2="400" y2="120" stroke="#c49a6c" stroke-width="0.5" opacity="0.1"/>
-                        <!-- Building structure -->
-                        <rect x="40" y="120" width="80" height="160" stroke="#c49a6c" stroke-width="1" opacity="0.25"/>
-                        <rect x="50" y="130" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
-                        <rect x="85" y="130" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
-                        <rect x="50" y="170" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
-                        <rect x="85" y="170" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
-                        <rect x="50" y="210" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
-                        <rect x="85" y="210" width="25" height="30" stroke="#c49a6c" stroke-width="0.5" opacity="0.15"/>
+                    <img src="images/about-structure.jpg" alt="Meridian construction site" class="about__image" loading="lazy">
+                </div>
+
                         <!-- Tall tower -->
                         <rect x="140" y="40" width="60" height="240" stroke="#c49a6c" stroke-width="1" opacity="0.3"/>
                         <line x1="140" y1="40" x2="170" y2="10" stroke="#c49a6c" stroke-width="1" opacity="0.3"/>
@@ -220,6 +211,7 @@
             <div class="services__grid">
                 <div class="service-card reveal" data-hover>
                     <div class="service-card__num">01</div>
+                    <img src="images/service-commercial.jpg" alt="" class="service-card__bg-image" loading="lazy">
                     <div class="service-card__icon">
                         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="8" y="20" width="48" height="40" stroke="#c49a6c" stroke-width="2"/>
@@ -237,6 +229,7 @@
                 </div>
                 <div class="service-card reveal" data-hover>
                     <div class="service-card__num">02</div>
+                    <img src="images/service-residential.jpg" alt="" class="service-card__bg-image" loading="lazy">
                     <div class="service-card__icon">
                         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 56V24L32 8L56 24V56" stroke="#c49a6c" stroke-width="2"/>
@@ -442,7 +435,7 @@
             <div class="projects__grid">
                 <div class="project-card project-card--large reveal" data-hover>
                     <div class="project-card__visual">
-                        <div class="project-card__pattern project-card__pattern--1"></div>
+                        <img src="images/project-spree-plaza.jpg" alt="Spree Plaza - Commercial Tower" class="project-card__image" loading="lazy">
                         <div class="project-card__overlay"></div>
                         <div class="project-card__content">
                             <span class="project-card__cat">Commercial Tower</span>
@@ -456,7 +449,7 @@
                 </div>
                 <div class="project-card reveal" data-hover>
                     <div class="project-card__visual">
-                        <div class="project-card__pattern project-card__pattern--2"></div>
+                        <img src="images/project-alte-villa.jpg" alt="Alte Villa - Residential" class="project-card__image" loading="lazy">
                         <div class="project-card__overlay"></div>
                         <div class="project-card__content">
                             <span class="project-card__cat">Residential</span>
@@ -470,7 +463,7 @@
                 </div>
                 <div class="project-card reveal" data-hover>
                     <div class="project-card__visual">
-                        <div class="project-card__pattern project-card__pattern--3"></div>
+                        <img src="images/project-koenig-halle.jpg" alt="König Halle - Heritage" class="project-card__image" loading="lazy">
                         <div class="project-card__overlay"></div>
                         <div class="project-card__content">
                             <span class="project-card__cat">Heritage</span>
@@ -484,7 +477,7 @@
                 </div>
                 <div class="project-card project-card--large reveal" data-hover>
                     <div class="project-card__visual">
-                        <div class="project-card__pattern project-card__pattern--4"></div>
+                        <img src="images/project-nord-logistik.jpg" alt="Nord Logistik - Industrial" class="project-card__image" loading="lazy">
                         <div class="project-card__overlay"></div>
                         <div class="project-card__content">
                             <span class="project-card__cat">Industrial</span>
@@ -498,7 +491,7 @@
                 </div>
                 <div class="project-card reveal" data-hover>
                     <div class="project-card__visual">
-                        <div class="project-card__pattern project-card__pattern--5"></div>
+                        <img src="images/project-gruen-turm.jpg" alt="Grün Turm - Sustainable" class="project-card__image" loading="lazy">
                         <div class="project-card__overlay"></div>
                         <div class="project-card__content">
                             <span class="project-card__cat">Sustainable</span>
@@ -512,7 +505,7 @@
                 </div>
                 <div class="project-card reveal" data-hover>
                     <div class="project-card__visual">
-                        <div class="project-card__pattern project-card__pattern--6"></div>
+                        <img src="images/project-rhine-complex.jpg" alt="Rhine Complex - Mixed-Use" class="project-card__image" loading="lazy">
                         <div class="project-card__overlay"></div>
                         <div class="project-card__content">
                             <span class="project-card__cat">Mixed-Use</span>
